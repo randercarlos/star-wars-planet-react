@@ -1,0 +1,69 @@
+.main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-war-planet {
+  width: 30%;
+  font: 18px Verdana, Arial, Times;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.star-war-planet-title {
+  font-weight: bold;
+  font-size: 28px;
+  min-height: 30px;
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 20px;
+}
+
+.star-war-planet-details {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-variant: small-caps;
+}
+
+.star-war-planet-details span {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.star-war-planet-details span.label {
+  font-weight: bolder;
+}
+
+.star-war-planet-details span.normal {
+  font-weight: normal;
+}
+
+.button-disabled {
+  border: 1px solid #ccc !important; 
+  color: #ccc !important;
+}
+
+.star-war-planet-details span.featured {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+}
+
+.button-next {
+  margin-top: 20px;
+}
+
+.button-next input[type="button"] {
+  border: 1px solid black;
+  width: 80px;
+  height: 40px;
+  font: 16px Verdana, Arial, Times;
+  background-color: transparent;
+}
